@@ -15,6 +15,10 @@ body{
     display: flex;
     justify-content: center;
 }
+iframe{
+    width:820px;
+    height:515px;
+}
 p{
     color: white;
     text-align: center;
@@ -31,7 +35,7 @@ p{
     display: flex;
     justify-content: center;
 }
-#form1{
+#form a{
     width: 10%;
     height: 10%;
     text-align: center;
@@ -189,3 +193,4 @@ footer.bottom{
         display: block;
     }
 }
+
