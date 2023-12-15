@@ -19,6 +19,15 @@ iframe{
     width:820px;
     height:515px;
 }
+h1{
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40pt;
+  font-family: 'Teko', sans-serif;
+  margin: 50px;
+  padding: 20px;
+}
 p{
     color: white;
     text-align: center;
@@ -214,3 +223,24 @@ footer .content{
       margin-top: 10px;
     }
   }
+form{
+  color: white;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+}
+label{
+  font-family: 'Teko', sans-serif;
+  font-size: 25pt;
+}
+fieldset{
+  text-align: justify;
+}
+fieldset label{
+  font-family: 'Teko', sans-serif;
+  font-size: 15pt;
+}
+legend{
+  font-family: 'Teko', sans-serif;
+  font-size: 25pt;
+}
