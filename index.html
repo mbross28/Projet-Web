@@ -11,7 +11,7 @@
     <header>
         <div id="logo"><img src="images/logo.png" alt="logo"></div>
     </header>
-    <p>
+    <p id="presentation">
         Spécialiste en réparation d’outils informatiques, nous garantissons des réparations de hautes qualités. 
         Nos employés sont sélectionné de manière très sélective afin de garantir à notre clientèle un service d’excellence.
         Nous nous occupons de tout type d'appareil du téléphone à l'ordinateur. Nous possédons des partenariats
@@ -19,7 +19,7 @@
         sur les pièces de rechange pour le bien du portefeuille de nos cliens.
     </p>
     <div id="video">
-        <iframe src="https://www.youtube-nocookie.com/embed/iw0ndGfH5Fg?si=gAxTounM3eXTZwJb" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q2VLgXyW7lQ?si=jTGzB8Gqb-v0rBSs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <div id="carre">
         <a id="service" href="services.htlm" target="_blank">Nos services</a>
@@ -28,28 +28,45 @@
     <div id="form">
         <a href="formulaire.html" target="_blank">Formulaire de service</a>
     </div>
-    <section>
-        <footer class="top">
-            <img src="images/logo.png" alt="logo">
-            <div class="links">
-                <div class="links-colonne">
-                    <h2>Get started</h2>
-                    <a href="#logo">Présentation</a>
-                </div>
-                <div class="colonne-social">
-                    <h2>Résaux social</h2>
-                    <p>Suivez nous</p>
-                    <div class="social">
-                        <a href="https://instagram.com/mathisaucarre14?igshid=OGQ5ZDc2ODk2ZA==" class="insta" target="_blank"><img src="images/insta.png" alt="instagramme"></a>
-                        <a href="mailto:mathisaucarre@gmail.com" class="mail" target="_blank"><img src="images/mail.png" alt="mail"></a>
-                        <a href="tel:00000000" class="tel" target="_blank"><img src="images/téléphone.png" alt="tel"></a>
-                    </div>
-                </div>
+    
+    <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <i class="fab fa-slack"></i>
+              <span class="logo_name"><img src="images/logo.png" alt="Logo" id="logo_footer"></span>
             </div>
-        </footer>
-        <footer class="bottom">
-            <p class="copyright">© 2023 MathisAuCarré</p>
-        </footer>
-    </section>
+          </div>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Suivez nous</li>
+              <li><a href="https://instagram.com/mathisaucarre14?igshid=OGQ5ZDc2ODk2ZA==" class="insta" target="_blank"><img src="images/insta.png" alt=""></a></li>
+              <li><a href="mailto:mathisaucarre@gmail.com"><img src="images/mail.png" alt="mail"></a></li>
+              <li><a href="tel:0000000000"><img src="images/téléphone.png" alt=""></a></li>
+            </ul>
+            <ul class="box">
+                <li class="link_name">Services</li>
+                <li><a href="#presentation">A notre sujet</a></li>
+                <li><a href="#">Nos partenaires</a></li>
+                <li><a href="#">Nos directeurs</a></li>
+              </ul>
+            <ul class="box input-box">
+              <li class="link_name">Souscrivez pour nos offres</li>
+              <li><input type="text" placeholder="Entrez votre email"></li>
+              <li><input type="button" value="Subscribe"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2023 <a href="#">Mathisaucarre</a>All rights reserved</span>
+            <span class="policy_terms">
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms & condition</a>
+            </span>
+          </div>
+        </div>
+    </footer>
+    
  </body>
 </html>
