@@ -302,7 +302,7 @@ footer .content{
     border-top: none;
   }
 
-  @media screen and (max-width: 1500px)
+  @media screen and (max-width: 1600px)
   {
   .timeline{
   opacity: 0;
