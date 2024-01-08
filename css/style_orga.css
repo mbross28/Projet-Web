@@ -1,5 +1,5 @@
 body{
-    background-image: url("../images/fond_services.jpg");
+    background-image: url("../images/fond_orga.jpg");
     background-attachment: scroll;
     background-size: cover;
   justify-content: center;
@@ -28,7 +28,7 @@ img{
     margin-right: 10px;
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    grid-template-rows: 20em 5em 20em 5em;
+    grid-template-rows: 20em 5em 20em 5em 20em 5em 10em 5em 8em 3em 8em 3em 8em 3em;
 }
 
 #directeur1{
@@ -58,6 +58,54 @@ img{
   grid-column-end: 5;
   grid-row-start: 5;
   grid-row-end: 6;
+}
+#chef1{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+#chef2{
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+#technitien1{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 9;
+  grid-row-end: 10;
+}
+#technitien2{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 11;
+  grid-row-end: 12;
+}
+#technitien3{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 13;
+  grid-row-end: 14;
+}
+#technitien4{
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 9;
+  grid-row-end: 10;
+}
+#technitien5{
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 11;
+  grid-row-end: 12;
+}
+#technitien6{
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 13;
+  grid-row-end: 14;
 }
 /*style case personne*/
 .carte {
@@ -105,12 +153,13 @@ img{
 }
 @media screen and (max-width: 800px) {
   #organigramme{
-    grid-template-rows: 20em 1em 20em 1em 20em 1em 20em;
+    display: flex;
+    flex-direction: column;
   }
     .carte{
         display: block;
         text-align: center;
-        height: auto;
+        width: 70%;
     }
     .salarier{
         width: 80%;
