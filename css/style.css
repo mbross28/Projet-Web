@@ -377,3 +377,56 @@ legend{
   font-family: 'Teko', sans-serif;
   font-size: 25pt;
 }
+/*article news*/
+.conteneur{
+  display: flex;
+  flex-wrap: wrap;
+}
+.news-item {
+  margin-left: 1em;
+  margin-top: 1em;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 40em;
+  max-width: 28em;
+}
+
+.image{
+  flex: 1;
+  height:50%
+}
+.image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.description{
+  flex: 1;
+  height:50%;
+  overflow: hidden;
+}
+.news-item h2 {
+  margin-top: 0;
+  color: #AFAFB6;
+  font-style: italic;
+}
+.news-item p{
+  padding: 1px;
+  margin: 0%;
+  max-height: 7em;
+  overflow: hidden;
+}
+
+.news-item a {
+  position: absolute;
+  color: blue;
+
+  padding: 0.5em;
+}
+
+.news-item a:hover {
+  text-decoration: underline;
+}
