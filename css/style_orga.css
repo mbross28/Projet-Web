@@ -36,7 +36,7 @@ body{
     grid-column-start: 4;
     grid-column-end: 7;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 5;
 }
 #admin{
   grid-column-start: 6;
