@@ -1,0 +1,60 @@
+body{
+    background-image: url("../images/fond_services.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+}
+#fond{
+    background-color: whitesmoke;
+    opacity: 0.75;
+    margin: 0;
+}
+.material-icons#gray { color: gray; }
+.entete{
+    display: flex;
+}
+.entete p{
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+.entete span{
+    padding-top: 9px;
+}
+.paragraphe p{
+    color:black;
+    margin: 0;
+    padding: 3px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mini_logo{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+#mini_logo img{
+    width: 500px;
+    background-color: lightgray;
+    opacity: 0.8;
+}
+#histoire{
+    display: none;
+}
+#histoire span{
+    font-style: italic;
+    display: none;
+}
+@media screen and (max-width: 1600px)
+{
+.timeline{
+display:none;
+}
+#histoire{
+    display: inline;
+}
+#histoire span{
+    display: inline;
+}
+}
