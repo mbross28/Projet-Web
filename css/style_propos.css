@@ -8,7 +8,7 @@ body{
     opacity: 0.75;
     margin: 0;
 }
-.material-icons#gray { color: gray; }
+.material-icons{ color: gray; }
 .entete{
     display: flex;
 }
