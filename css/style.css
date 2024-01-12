@@ -1,31 +1,31 @@
-body{
+body{ 
     background-image: url("../images/fond.jpg");
     background-attachment: scroll;
     background-size: cover;
 }
-#logo{
+#logo{ /* style logo */
     display: flex;
     justify-content: center;
 }
-#logo img{
+#logo img{ /*taille logo*/
     width: 600px;
     height: 400px;
 }
-#video{
+#video{ /* style video */ 
     display: flex;
     justify-content: center;
 }
-iframe{
+iframe{ /* taille video*/
     width:820px;
     height:515px;
 }
-h1{
+h1{ /*style titre important*/
   color: white;
   text-decoration: underline;
   font-size: 40pt;
   font-family: 'Teko', sans-serif;
 }
-p{
+p{ /*style pour tous les textes*/
     color: white;
     text-align: center;
     font-family: 'Teko', sans-serif;
@@ -33,7 +33,7 @@ p{
     margin: 50px;
     padding: 20px;
 }
-nav {
+nav { /*style pour la barre de navigation*/
   background-color: #97DFC6;
   padding: 0 20px;
   border-radius: 40px;
@@ -81,7 +81,7 @@ nav {
   border-radius: 8px 8px 0 0;
 }
 
-#logo_footer{
+#logo_footer{ /*style footer*/
     width: 200px;
     height: 120px;
 }
@@ -213,7 +213,7 @@ footer .content{
   .bottom-details .bottom_text a{
     margin-right: 10px;
   }
-  @media (max-width: 700px) {
+  @media (max-width: 700px) { /*modifie si l'ecran est plus petit*/
     footer .content .link-boxes{
       flex-wrap: wrap;
     }
@@ -226,7 +226,7 @@ footer .content{
       margin-top: 10px;
     }
   }
-  .timeline {
+  .timeline { /*style frise chronologique*/
     position: relative;
     margin: 0 auto;
     padding: 40px 60px;
@@ -302,7 +302,7 @@ footer .content{
     border-top: none;
   }
 
-  @media screen and (max-width: 1600px)
+  @media screen and (max-width: 1600px) /*si l'ecran est trop petit*/
   {
   .timeline{
   display:none;
@@ -322,7 +322,7 @@ footer .content{
   list-style: none;
   animation: lighting 1.4s linear infinite;
 }
-@keyframes lighting{
+@keyframes lighting{ /*animation qui fait clignoter les lettres*/
   0%{
     color: #484848;
     text-shadow: none;
